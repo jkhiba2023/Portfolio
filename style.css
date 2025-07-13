@@ -656,3 +656,52 @@ h3.my-profession {
   color: var(--text-black-700);
   font-weight: 400;
 }
+
+@media (max-width:1199px) {
+  .aside {
+    left: -270px;
+  }
+
+  .main-content {
+    padding-left: 0;
+  }
+
+  .about .about-content .personal-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:991px) {
+
+  .home .home-img {
+    display: none;
+  }
+
+  .about .about-content .education,
+  .about .about-content .experience,
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact .contact-info-item,
+  .portfolio .portfolio-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width:787px) {
+
+  .contact .contact-form .col-6,
+  .contact .contact-info-item,
+  .portfolio .portfolio-item,
+  .about .about-content .education,
+  .about .about-content .experience,
+  .about .about-content .skills,
+  .about .about-content .personal-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
