@@ -314,8 +314,8 @@ h3.my-profession {
   width: 80px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
-  right: 20px;
-  bottom: -40px;
+  right: 9px;
+  bottom: -25px;
 }
 
 .home-img::before {
@@ -325,8 +325,8 @@ h3.my-profession {
   width: 80px;
   border-top: 10px solid var(--skin-color);
   border-left: 10px solid var(--skin-color);
-  left: 20px;
-  top: -40px;
+  left: 14px;
+  top: -10px;
 }
 
 .home .home-img img {
@@ -588,6 +588,38 @@ h3.my-profession {
   color: var(--text-black-900);
   font-size: 15px;
   text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact .contact-info-item {
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact .contact-info-item .icon {
+  display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa {
+  font-size: 25px;
+  color: var(--skin-color);
+}
+
+.contact .contact-info-item h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+}
+
+.contact .contact-info-item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  font-weight: 400;
 }
 
 .contact .contact-form {
@@ -641,29 +673,6 @@ h3.my-profession {
   margin-bottom: 60px;
 }
 
-.contact .contact-info-item .icon {
-  display: inline-block;
-}
-
-.contact .contact-info-item .icon .fa {
-  font-size: 25px;
-  color: var(--skin-color);
-}
-
-.contact .contact-info-item h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--text-black-900);
-  text-transform: capitalize;
-  margin: 15px 0 5px;
-}
-
-.contact .contact-info-item p {
-  font-size: 16px;
-  line-height: 25px;
-  color: var(--text-black-700);
-  font-weight: 400;
-}
 
 @media (max-width:1199px) {
   .aside {
