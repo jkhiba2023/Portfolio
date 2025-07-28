@@ -705,6 +705,7 @@ h3.my-profession {
 .contact .contact-form .btn {
   height: 50px;
   padding: 0 50px;
+  margin-bottom: 40px;
 }
 
 .contact .contact-form .form-item .form-control .contact .contact-info-item {
@@ -784,4 +785,5 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
 }
