@@ -528,7 +528,6 @@ h3.my-profession {
 .about .about-content .timeline .timeline-item {
   position: relative;
   padding-left: 37px;
-  padding-bottom: 15px;
 }
 
 .about .about-content .timeline .timeline-item:last-child {
