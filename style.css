@@ -528,7 +528,7 @@ h3.my-profession {
 .about .about-content .timeline .timeline-item {
   position: relative;
   padding-left: 37px;
-  padding-bottom: 50px;
+  padding-bottom: 15px;
 }
 
 .about .about-content .timeline .timeline-item:last-child {
@@ -783,6 +783,5 @@ h3.my-profession {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 10px;
   }
 }
